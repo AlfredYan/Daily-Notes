@@ -1,4 +1,4 @@
-# Draw Red-Black Tree
+# Draw Red Black Tree
 
 Assume Z is the node that is inserted
 
@@ -19,3 +19,7 @@ Assume Z is the node that is inserted
 2. Z.uncle = red -> recolor Z's parent and grandparent
 3. Z.uncle = black(triangle: Z and its parent are not the same side) -> rotate Z.parent
 4. Z.uncle = black(line : Z and its parent are the same side) -> rotate Z.grandparent & recolor
+
+
+
+[Left Learning Red Black Tree Insertion](https://www.geeksforgeeks.org/left-leaning-red-black-tree-insertion/) 
